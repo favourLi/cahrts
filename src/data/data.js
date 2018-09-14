@@ -1,0 +1,426 @@
+export default {
+    text: 'root',
+    level: 0,
+    childLen: 50,
+    children: [
+      {
+        text: '1',
+        level: 1,
+        childLen: 5,
+        children: [
+          {
+            text: '2',
+            level: 2,
+            childLen: 0,
+            children: [],
+          },
+          {
+            text: '2',
+            level: 2,
+            childLen: 0,
+            children: [],
+          },
+          // {
+          //   text: '2',
+          //   level: 2,
+          //   childLen: 0,
+          //   children: [],
+          // },
+          // {
+          //   text: '2',
+          //   level: 2,
+          //   childLen: 0,
+          //   children: [],
+          // },
+          // {
+          //   text: '2',
+          //   level: 2,
+          //   childLen: 0,
+          //   children: [],
+          // },
+        ],
+      },
+      // {
+      //   text: '1',
+      //   level: 1,
+      //   childLen: 4,
+      //   children: [
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 3,
+      //       children: [
+      //         {
+      //           text: '3',
+      //           level: 3,
+      //           childLen: 0,
+      //           children: [
+      //             {
+      //               text: '4',
+      //               level: 4,
+      //               childLen: 0,
+      //               children: [],
+      //             },
+      //           ],
+      //         },
+      //         {
+      //           text: '3',
+      //           level: 2,
+      //           childLen: 0,
+      //           children: [],
+      //         },
+      //       ],
+      //     },
+      //   ],
+      // },
+      // {
+      //   text: '1',
+      //   level: 1,
+      //   childLen: 2,
+      //   children: [
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //   ],
+      // },
+      // {
+      //   text: '1',
+      //   level: 1,
+      //   childLen: 3,
+      //   children: [
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //   ],
+      // },
+      // {
+      //   text: '1',
+      //   level: 1,
+      //   childLen: 4,
+      //   children: [
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //   ],
+      // },
+      // {
+      //   text: '1',
+      //   level: 1,
+      //   childLen: 6,
+      //   children: [
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //   ],
+      // },
+      // {
+      //   text: '1',
+      //   level: 1,
+      //   childLen: 7,
+      //   children: [
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //   ],
+      // },
+      // {
+      //   text: '1',
+      //   level: 1,
+      //   childLen: 8,
+      //   children: [
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },{
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //   ],
+      // },
+      // {
+      //   text: '1',
+      //   level: 1,
+      //   childLen: 9,
+      //   children: [
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //   ],
+      // },
+      // {
+      //   text: '1',
+      //   level: 1,
+      //   childLen: 10,
+      //   children: [
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //     {
+      //       text: '2',
+      //       level: 2,
+      //       childLen: 0,
+      //       children: [],
+      //     },
+      //   ],
+      // },
+    ]
+  }
